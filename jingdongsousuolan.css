@@ -1,0 +1,78 @@
+body, p, img, dl, dt, dd, ul, ol, h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; }
+body { position: relative; font: 12px/24px/*字号/行高*/ "Microsoft YaHei", Arial; min-width: 960px; }
+ul, ol { list-style: none; }
+img { border: 0 none; }
+input, select { vertical-align: middle; }
+table { border-collapse: collapse; }
+s, em, i { font-style: normal; text-decoration: none; }
+.cf { *zoom: 1; }
+.cf:after { clear: both; content: "."; display: block; height: 0; overflow: hidden; visibility: hidden; zoom: 1; }
+
+.search{
+    margin: 100px auto 0;
+    width: 750px;
+    height: 40px;
+}
+.search input{
+    width: 500px;
+    height: 30px;
+    border:4px solid #f00;
+    float: left;
+    outline: none;
+    padding-left:4px;
+}
+.search .text2{
+    /*display: block;*/
+    width: 100px;
+    height: 40px;
+    background: #FF571C;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #FFF7FA;
+    text-decoration: none;
+    float: left;
+}
+.search .text2:hover{
+    color: #80210B;
+}
+.search .text1{
+    position: relative;
+}
+.search .text1 .menu{
+    width: 508px;
+    border:1px solid #BF49FF;
+    background: #fff;
+    position: absolute;
+    top: 40px;
+    display: none;
+}
+.search .text1:hover .menu{
+    display: block;
+}
+.search .text1 .menu ul li{
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.search .text1 .menu ul li:hover{
+    background: #FF3E19;
+}
+.search .text1 .menu ul li a{
+    font-size: 16px;
+    color: #FFE919;
+    float: left;
+    width: 400px;
+    text-decoration: none;
+    overflow: hidden;/*溢出隐藏*/
+    text-overflow: ellipsis;/*溢出部分用省略号显示*/
+    white-space: nowrap;/*禁止换行*/
+}
+.search .text1 .menu ul li span{
+    font-size: 14px;
+    color: #A6FF83;
+    float: right;
+    width: 100px;
+    overflow: hidden;/*溢出隐藏*/
+    text-overflow: ellipsis;/*溢出部分用省略号显示*/
+    white-space: nowrap;/*禁止换行*/
+}
